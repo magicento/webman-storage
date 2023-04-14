@@ -127,7 +127,6 @@ abstract class AdapterAbstract implements AdapterInterface
         $this->config['excludes'] = $config['exclude'] ?? $defaultConfig['exclude'];
         $this->config['single_limit'] = $config['single_limit'] ?? $defaultConfig['single_limit'];
         $this->config['total_limit'] = $config['total_limit'] ?? $defaultConfig['total_limit'];
-        $this->config['total_limit'] = $config['total_limit'] ?? $defaultConfig['total_limit'];
         $this->config['nums'] = $config['nums'] ?? $defaultConfig['nums'];
         $this->config['algo'] = $config['algo'] ?? $this->algo;
         if (is_callable($this->config['dirname'])) {
